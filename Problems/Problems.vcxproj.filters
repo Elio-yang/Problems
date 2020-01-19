@@ -18,5 +18,11 @@
     <ClCompile Include="韩信点兵.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="抽取4次和为m.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="组成三角形最大周长.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
