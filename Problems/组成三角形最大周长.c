@@ -1,7 +1,7 @@
 /*
 There are n sticks,the i-th has the length a_i,
 find 3 sticks which can consist a triangle and 
-make the giggest perimeter.
+make the biggest perimeter.
 sample:
 input:
 n=4
