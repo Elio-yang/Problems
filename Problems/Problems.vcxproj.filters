@@ -24,5 +24,8 @@
     <ClCompile Include="组成三角形最大周长.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="蚂蚁下落.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
