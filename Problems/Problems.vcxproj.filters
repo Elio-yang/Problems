@@ -15,16 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="韩信点兵.c">
+    <ClCompile Include="O%28N^3logN）抽取4次和为m.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="抽取4次和为m.c">
+    <ClCompile Include="O%28N^4%29抽取4次和为m.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="组成三角形最大周长.c">
+    <ClCompile Include="O%28N%29韩信点兵.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="蚂蚁下落.c">
+    <ClCompile Include="O%28N%29蚂蚁下落.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="O%28N^4%29组成三角形最大周长.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
