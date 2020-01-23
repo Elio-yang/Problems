@@ -40,7 +40,7 @@ int main()
 				len = A[i] + A[j] + A[k];
 				max = Max(A[i], A[j], A[k]);
 				res = len - max;
-				if (max < res)
+				if (max < res)//conditions to consist a triangle
 				{
 					ans = (len > ans) ? len : ans;
 				}

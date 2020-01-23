@@ -30,5 +30,14 @@
     <ClCompile Include="O%28N^4%29组成三角形最大周长.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="三整数排序1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="三个整数排序2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="闰年.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
