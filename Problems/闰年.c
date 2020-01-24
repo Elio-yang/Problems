@@ -7,20 +7,21 @@ int main()
 {
 	int year;
 	bool flag=false;
-	scanf("%d", &year);
-	if (((year % 4 == 0) && (year % 100 != 0)) || ((year % 100 == 0) && (year % 400 == 0)))
+	while((scanf("%d",&year)==1))
 	{
-		flag = true;
+			if((year%4==0&&year%100!=0)||(year%400==0&&year%3200!=0)||year%172800==0)
+			{
+				flag = true;
+			}
+			if (flag)
+			{
+				printf("Yes\n");
+			}
+			else
+			{
+			printf("No\n");
+			}
+			flag = false;
 	}
-	if (flag)
-	{
-		printf("Yes");
-	}
-	else
-	{
-		printf("No");
-	}
-
 	return 0;
-
 }

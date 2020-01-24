@@ -39,5 +39,14 @@
     <ClCompile Include="闰年.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="aabb完全平方数1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aabb完全平方数2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3n+1问题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
