@@ -48,5 +48,11 @@
     <ClCompile Include="3n+1问题.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="近似计算1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="阶乘和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
