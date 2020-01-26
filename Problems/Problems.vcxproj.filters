@@ -54,5 +54,20 @@
     <ClCompile Include="阶乘和.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="水仙花数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="子序列的和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分数化小数1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分数化小数2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
