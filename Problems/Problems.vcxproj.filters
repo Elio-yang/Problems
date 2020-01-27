@@ -66,7 +66,10 @@
     <ClCompile Include="分数化小数2.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="排序.c">
+    <ClCompile Include="排序1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="排序2.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
