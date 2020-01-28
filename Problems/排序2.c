@@ -17,7 +17,7 @@ int main()
 		bit[0] = i / 100;//百位数字
 		bit[1] = (i / 10) % 10;//十位数字
 		bit[2] = i % 10;//个位数字
-		//利用数组存储第一个数
+		//利用数组存储第一个数的各个位
 
 		int status = 1;
 		BitSize = 3;
@@ -52,7 +52,7 @@ int main()
 		if (status) 
 		{
 			printf("%d %d %d\n", i, j, k);
-		}
+		} 
 	}
 
 	return 0;
@@ -65,7 +65,6 @@ int inBit(int *bit, int num) //If repeated，return 1
 		if (num == bit[i]) 
 		{
 			return 1;
-
 		}
 	}
 	return 0;

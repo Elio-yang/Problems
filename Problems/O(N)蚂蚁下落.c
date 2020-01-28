@@ -62,3 +62,41 @@ int Min(int A, int B)
 /*
 Algorithm Analysis:O(N)
 */
+/*
+#include<stdio.h>
+#include<string.h>
+#define maxn 1000050
+int dis[maxn];
+int min(int x,int y);
+int max(int x,int y);
+int main()
+{
+	int t;
+	scanf("%d",&t);
+	while(t--)
+	{
+		int l,n;
+		scanf("%d%d",&l,&n);
+		for(int i=0;i<n;i++)
+		scanf("%d",&dis[i]);
+		int mi=0,ma=0;
+		for(int i=0;i<n;i++){
+			mi=max(mi,min(dis[i],l-dis[i]));
+			ma=max(ma,max(dis[i],l-dis[i]));
+		}
+		printf("%d %d\n",mi,ma);
+	}
+	return 0;
+}
+int max(int x,int y)
+{
+	if(x>y)return x;
+	return y;
+}
+int min(int x,int y)
+{
+	if(x>y)return y;
+	return x;
+}
+！！！！！！！！！！！！！！！！
+*/
