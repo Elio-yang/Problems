@@ -72,5 +72,8 @@
     <ClCompile Include="排序2.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="星期几_蔡勒公式.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
