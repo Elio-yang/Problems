@@ -32,7 +32,7 @@ int main()
 		{
 			a[--x][y] = ++sum;
 		}
-		while (y + 1 < n && !a[x][y + 1])
+		while (y + 1 < n && !a[x][y + 1])//´Ó×óÍùÓÒ×ß
 		{
 			a[x][++y] = ++sum;
 
