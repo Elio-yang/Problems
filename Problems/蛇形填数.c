@@ -20,7 +20,7 @@ int main()
 	sum = a[x = 0][y = n - 1] = 1;
 	while (sum < n*n)
 	{
-		while (x + 1 < n && !a[x + 1][y])//最后一列往下
+		while (x + 1 < n && !a[x + 1][y])//最后一列往下 下一个格子是（x+1，y）
 		{
 			a[++x][y] = ++sum;
 		}
