@@ -81,5 +81,8 @@
     <ClCompile Include="开灯问题.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="蛇形填数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
