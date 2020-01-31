@@ -11,7 +11,7 @@
 int main()
 {
 	int a[SIZE][SIZE];
-	memset(a, 0, sizeof(a));//为填数的都是0即！a[x+1][y]为真表示该区域未填
+	memset(a, 0, sizeof(a));//全初始化为0即！a[x+1][y]为真表示该区域未填
 	int i, j;
 	int n;
 	int sum;
