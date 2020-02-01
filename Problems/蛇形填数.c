@@ -12,27 +12,26 @@ int main()
 {
 	int a[SIZE][SIZE];
 	memset(a, 0, sizeof(a));//全初始化为0即！a[x+1][y]为真表示该区域未填
-	int i, j;
 	int n;
 	int sum;
 	scanf("%d", &n);
 	int x, y;//x是行，y是列
-	sum = a[x = 0][y = n - 1] = 1;
+	sum = a[x = 0][y = n - 1] = 1;//填充第一个格子
 	while (sum < n*n)
 	{
 		while (x + 1 < n && !a[x + 1][y])//最后一列往下 下一个格子是（x+1，y）
 		{
-			a[++x][y] = ++sum;
+			a[++x][y] = ++sum;//如果使用sum++，那么第二个格子会被赋值1，之后再递增，第三个格子赋值2
 		}
-		while (y - 1 >= 0 && !a[x][y - 1])//最后一行往左
+		while (y - 1 >= 0 && !a[x][y - 1])//最后一行往左 下一个格子是(y-1,x)
 		{
 			a[x][--y] = ++sum;
 		}
-		while (x - 1 >= 0 && !a[x - 1][y])//从下往上走
+		while (x - 1 >= 0 && !a[x - 1][y])//从下往上走 下一个格子是（x-1,y) 
 		{
 			a[--x][y] = ++sum;
 		}
-		while (y + 1 < n && !a[x][y + 1])//从左往右走
+		while (y + 1 < n && !a[x][y + 1])//从左往右走  下一个格子是（x，y+1)
 		{
 			a[x][++y] = ++sum;
 
