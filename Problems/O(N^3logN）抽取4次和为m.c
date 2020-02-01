@@ -14,7 +14,7 @@ int main()
 	scanf("%d", &m);
 	printf("\n");
 
-	printf("Input the numbers:\nK[%d]=\n", n);
+	printf("Input the numbers in oder:\nK[%d]=\n", n);
 	for (i = 0; i < n; i++)
 	{
 		scanf("%d", &K[i]);
