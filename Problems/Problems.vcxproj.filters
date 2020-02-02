@@ -90,5 +90,8 @@
     <ClCompile Include="生成元.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="环状序列.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
