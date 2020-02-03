@@ -93,5 +93,14 @@
     <ClCompile Include="环状序列.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="排序3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="不高兴的津津.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="买铅笔.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
