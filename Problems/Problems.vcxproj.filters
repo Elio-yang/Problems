@@ -102,5 +102,8 @@
     <ClCompile Include="买铅笔.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="小鱼航程.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
